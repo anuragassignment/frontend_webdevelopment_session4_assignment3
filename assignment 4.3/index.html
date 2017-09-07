@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <script src="./node_modules/systemjs/dist/system.js"></script>
+</head>
+
+<body>
+    <h1>Open Developers Console for the Output</h1>
+    <script>
+        //systemjs module loader
+        SystemJS.config({
+            baseUrl: './',
+            bundles: {
+                "bundle.js": ["modules"],
+            },
+        });
+
+        SystemJS.import('modules');
+    </script>
+</body>
+
+</html>

@@ -1,0 +1,10 @@
+{
+    "compilerOptions": {
+        "module": "system",
+        "target": "es5",
+        "noEmitOnError": true,
+        "sourceMap": true,
+        "removeComments": true,
+        "outFile": "bundle.js"
+    }
+}

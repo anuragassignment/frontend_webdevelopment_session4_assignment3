@@ -1,0 +1,22 @@
+{
+  "name": "assignment_4.3",
+  "version": "0.0.1",
+  "description": "typescript modules app",
+  "main": "module.js",
+  "dependencies": {
+    "systemjs": "^0.20.18"
+  },
+  "devDependencies": {
+    "lite-server": "^2.3.0"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "server": "lite-server"
+  },
+  "keywords": [
+    "typescript",
+    "modules"
+  ],
+  "author": "anurag",
+  "license": "ISC"
+}
